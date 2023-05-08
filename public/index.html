@@ -24,9 +24,14 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>THE TREASURE HUNT</title>
   </head>
-  <body>
+  <body unload="myFunction()">
+    <script>
+      function myFunction() {
+        alert("Thank you for visiting W3Schools!");
+      }
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -40,4 +45,13 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <!-- 
+
+     /                       /                         /                             /                         /
+    /-------      |         /-------         |        /-------        |             /-------       |          /-------
+    \-------   ---|---      \-------      ---|---     \-------     ---|---          \-------    ---|---       \-------            
+     \            |          \               |         \              |              \             |           \
+    
+     
+   -->
 </html>
